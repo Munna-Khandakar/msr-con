@@ -1,0 +1,33 @@
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 2rem; /* Adjust spacing between rows */
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 2rem; /* Adjust spacing between form fields */
+  border: 1px solid #ccc; /* Add border to form group */
+  border-radius: 4px; /* Optional: Add border radius for rounded corners */
+}
+
+.form-group:last-child {
+  margin-right: 0; /* Remove margin for the last form field */
+}
+
+.form-control {
+  width: 100%;
+  border: none; /* Remove default input border */
+  padding: 0.5rem; /* Optional: Add padding for better visual appearance */
+}
+
+/*  */
+
+.apply-button{
+  margin: auto;
+}
