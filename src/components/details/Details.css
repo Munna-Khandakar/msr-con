@@ -115,6 +115,8 @@
 }
 .detail-body {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-direction: row;
     row-gap: 10px;
     column-gap: 20px;
@@ -129,6 +131,7 @@ margin-top: 2rem;
 
 .summary-detail{
     margin-top: 6rem;
+    max-width: 350px;
 }
 
 .summary, .detail{
