@@ -11,7 +11,7 @@ const CoursesSection = () => {
           <li>
             <a href="/details"> 
             <div className="course-card">
-              <a herf='JobDetail'>
+            <a href="/details"> 
               <figure className="card-banner img-holder" style={{ "--width": "370", "--height": "220" }}>
                 <img
                   src="./assets/image/image.jpeg"
@@ -25,7 +25,7 @@ const CoursesSection = () => {
               <div className="card-content">
                 <span className="badge">No Ielts</span>
                 <h3 className="h3">
-                  <a href="#" className="card-title">🇦🇺 STUDY IN AUSTRALIA 🇦🇺</a>
+                  <a href="/details" className="card-title">🇦🇺 STUDY IN AUSTRALIA 🇦🇺</a>
                 </h3>
                 <div className="wrapper">
                   <div className="rating-wrapper">
@@ -68,7 +68,7 @@ const CoursesSection = () => {
               <div className="card-content">
                 <span className="badge">No Ielts</span>
                 <h3 className="h3">
-                  <a href="#" className="card-title">🇦🇺 STUDY IN AUSTRALIA 🇦🇺</a>
+                  <a href="/details" className="card-title">🇦🇺 STUDY IN AUSTRALIA 🇦🇺</a>
                 </h3>
                 <div className="wrapper">
                   <div className="rating-wrapper">
@@ -110,7 +110,7 @@ const CoursesSection = () => {
               <div className="card-content">
                 <span className="badge">No Ielts</span>
                 <h3 className="h3">
-                  <a href="#" className="card-title">🇦🇺 STUDY IN AUSTRALIA 🇦🇺</a>
+                  <a href="/details" className="card-title">🇦🇺 STUDY IN AUSTRALIA 🇦🇺</a>
                 </h3>
                 <div className="wrapper">
                   <div className="rating-wrapper">
